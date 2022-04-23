@@ -2,8 +2,8 @@
 pipeline {
   agent any
  parameters {
-        string(name: 'name_container', defaultValue: 'proyecto-qa', description: 'nombre del docker')
-        string(name: 'name_imagen', defaultValue: 'iproyecto-qa', description: 'nombre de la imagen')
+        string(name: 'name_container', defaultValue: 'c-pipe-talk', description: 'nombre del docker')
+        string(name: 'name_imagen', defaultValue: 'img-pipe-talk', description: 'nombre de la imagen')
         string(name: 'tag_imagen', defaultValue: 'latest', description: 'etiqueta de la imagen')
         string(name: 'puerto_imagen', defaultValue: '80', description: 'puerto a publicar')
     }
